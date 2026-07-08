@@ -29,6 +29,18 @@ var CFG = {
   // Si el grupo se llena, actualiza el link ahí — no hace falta volver a desplegar este sitio.
   WA_GROUP:       'https://anggiej-svg.github.io/aecode-wsp/summit/',
 
+  /* ── ZOOM EN VIVO ──────────────────────────────────── */
+
+  // Link de la sala de Zoom del Pre-Congreso (mismo link ambos días)
+  ZOOM_URL:       'https://us06web.zoom.us/j/88230639016?pwd=1LSWilcKKymymlWliu9v2Gxbdf78Ch.1',
+
+  // Horarios de cada día (hora de Perú, UTC-5). Controla cuándo aparece
+  // el aviso rojo "EN VIVO" / "EN BREVE" junto al botón de Zoom.
+  EVENT_DAYS: [
+    { start: '2026-07-08T12:00:00-05:00', end: '2026-07-08T14:30:00-05:00' },
+    { start: '2026-07-09T12:00:00-05:00', end: '2026-07-09T14:30:00-05:00' },
+  ],
+
   /* ── REDES SOCIALES ────────────────────────────────── */
 
   SOCIAL_IG:      'https://www.instagram.com/aecode.ai/',
